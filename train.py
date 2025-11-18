@@ -16,7 +16,7 @@ print(f"Доступно MPS: {torch.backends.mps.is_available()}")
 # Параметры модели
 MODEL_NAME = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
 OUTPUT_DIR = "./tinyllama-finetuned"
-TRAIN_FILE = ["train.txt", "semen.txt"]  # добавил второй файл для обучения
+TRAIN_FILE = ["train.txt", "rustam.txt", "kirillVit.txt"]  # добавил второй файл для обучения
 VAL_FILE = "val.txt"
 
 # Определение устройства
