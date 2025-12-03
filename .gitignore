@@ -1,0 +1,52 @@
+# Виртуальное окружение
+gptEnv/
+
+# Файлы Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Файлы моделей и данных
+*.pkl
+*.bin
+*.pt
+*.pth
+*.h5
+
+# Временные файлы
+.DS_Store
+.ipynb_checkpoints
+
+# Логи и дампы
+*.log
+*.sqlite
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Локальные настройки
+.env
+*.env
+
+# Кэш
+.cache/
+.eggs/
+
+# Установленные пакеты
+*.egg-info/
+build/
+dist/
+
+# файлы обучения 
+kirillVit.txt
+readme.txt
+rustam.txt
+semen.txt
+train.txt
+val.txt
